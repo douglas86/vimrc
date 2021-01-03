@@ -23,7 +23,7 @@ autocmd BufWinEnter *.java map T :!java % <CR>
 autocmd BufWinEnter *.js map T :!node % <CR>
 
 " opens the development console for running react
-map <C-n> :tabnew <bar> :term npm start <CR> <bar> :tabp <CR>
+" map <C-n> :tabnew <bar> :term npm start <CR> <bar> :tabp <CR>
 
 " handling snippets
 imap <c-z> <Plug>(coc-snippets-expand)

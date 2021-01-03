@@ -27,4 +27,4 @@ autocmd BufWrite *.* pclose
 autocmd BufNewFile *.jsx :CocCommand template.template
 
 " file for all shortcuts
-source $HOME/.config/nvim/ftplugin/shortcuts.vim
+source $HOME/.vim/ftplugin/shortcuts.vim
