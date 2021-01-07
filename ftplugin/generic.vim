@@ -11,6 +11,7 @@ set encoding=UTF-8
 set smartindent
 set ignorecase
 set nohlsearch
+set modifiable
 
 " helping with searching
 nnoremap * /\<<C-R>=expand('<cword>')<CR>\><CR>
