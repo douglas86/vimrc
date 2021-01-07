@@ -16,7 +16,6 @@ Plug 'mattn/calendar-vim' "this calender is used in vimwiki for displaying calen
 Plug 'anyakichi/vim-surround'
 Plug 'tpope/vim-fugitive' "Used for github
 Plug 'junegunn/fzf' "fuzzy finder to use to find list, files, command history etc. From within vim
-Plug 'pangpangpangpangpang/vim-terminal'
 
 "JavaScript plugin settings
 Plug 'pangloss/vim-javascript', {'for': ['javascript']} "syntax highlighting for js files
