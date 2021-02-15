@@ -56,8 +56,10 @@ autocmd VimEnter * colorscheme codedark
 
 " vimwiki
 " refer to the md plugins file for these settings
-let g:vimwiki_list = [{'path':'~/.config/nvim/vimwiki', 'syntax':'default', 'ext':'.md'}]
+let g:vimwiki_list = [{'path':'~/.vim/vimwiki', 'syntax':'default', 'ext':'.md'}]
 let g:vimwiki_hl_headers = 1
+
+au BufNewFile ~/.vim/vimwiki/diary/*.md :silent 0r !~/.vim/vimwiki/templates/diary-template '%'
 
 command! Diary VimwikiDiaryIndex
 augroup vimwikigroup
@@ -65,6 +67,7 @@ augroup vimwikigroup
     " automatically update links on read diary
     autocmd BufRead,BufNewFile diary.md VimwikiDiaryGenerateLinks
 augroup end
+
 
 " calendar-vim
 " refer to the md plugins file for these settings
