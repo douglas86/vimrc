@@ -25,6 +25,7 @@ Plug 'sidorares/node-vim-debugger', {'for': ['javascript', 'javascriptreact', 'e
 
 "html and javascript
 Plug 'alvan/vim-closetag', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']}, "auto closing of html tags
+Plug 'mattn/emmet-vim'
 Plug 'valloric/matchtagalways', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']} "show matches html tags
 " Plug 'prettier/vim-prettier', {'do': 'yarn install', 'for': ['css', 'html', 'htmldjango', 'javascript', 'javascript/react', 'embedded/javascript']}
 

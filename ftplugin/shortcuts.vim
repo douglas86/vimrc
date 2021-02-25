@@ -35,3 +35,6 @@ let g:NERDCommenterToggle = '<leader>c<space>'
 
 " github shortcuts
 nmap <c-g> :Git add . <bar> Git commit<CR>
+
+" emmet-vim
+let g:user_emmet_leader_key=','
