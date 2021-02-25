@@ -68,6 +68,5 @@ augroup vimwikigroup
     autocmd BufRead,BufNewFile diary.md VimwikiDiaryGenerateLinks
 augroup end
 
-
 " calendar-vim
 " refer to the md plugins file for these settings
