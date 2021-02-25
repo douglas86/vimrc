@@ -1,4 +1,5 @@
 autoload/
 plugged/
 black/
+vimwiki/
 .git/
