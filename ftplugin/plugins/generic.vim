@@ -70,3 +70,5 @@ augroup end
 
 " calendar-vim
 " refer to the md plugins file for these settings
+
+" emmet
