@@ -18,6 +18,7 @@ Plug 'tpope/vim-fugitive' "Used for github
 Plug 'junegunn/fzf' "fuzzy finder to use to find list, files, command history etc. From within vim
 Plug 'meain/vim-package-info' "Looks up package info on the packages that you are using
 Plug 'alvan/vim-closetag', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']}, "auto closing of html tags
+Plug 'mg979/vim-visual-multi' "Selects multiple words at once
 
 "JavaScript plugin settings
 Plug 'pangloss/vim-javascript', {'for': ['javascript']} "syntax highlighting for js files
