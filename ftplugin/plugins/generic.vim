@@ -72,3 +72,6 @@ augroup end
 " refer to the md plugins file for these settings
 
 " emmet
+
+" vim-package-info
+
