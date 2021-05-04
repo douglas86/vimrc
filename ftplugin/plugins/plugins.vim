@@ -17,6 +17,7 @@ Plug 'anyakichi/vim-surround'
 Plug 'tpope/vim-fugitive' "Used for github
 Plug 'junegunn/fzf' "fuzzy finder to use to find list, files, command history etc. From within vim
 Plug 'meain/vim-package-info' "Looks up package info on the packages that you are using
+Plug 'alvan/vim-closetag', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']}, "auto closing of html tags
 
 "JavaScript plugin settings
 Plug 'pangloss/vim-javascript', {'for': ['javascript']} "syntax highlighting for js files
@@ -25,7 +26,6 @@ Plug 'tpope/vim-projectionist', {'for': ['javascriptreact', 'embedded/javascript
 Plug 'sidorares/node-vim-debugger', {'for': ['javascript', 'javascriptreact', 'embedded/javascript']} "debugging node.js programs
 
 "html and javascript
-Plug 'alvan/vim-closetag', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']}, "auto closing of html tags
 Plug 'mattn/emmet-vim'
 Plug 'valloric/matchtagalways', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']} "show matches html tags
 " Plug 'prettier/vim-prettier', {'do': 'yarn install', 'for': ['css', 'html', 'htmldjango', 'javascript', 'javascript/react', 'embedded/javascript']}
