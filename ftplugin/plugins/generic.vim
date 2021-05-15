@@ -58,7 +58,7 @@ autocmd VimEnter * colorscheme codedark
 " refer to the md plugins file for these settings
 let g:vimwiki_list = [{'path':'~/.vim/vimwiki', 'syntax':'default', 'ext':'.md'}]
 let g:vimwiki_hl_headers = 1
-let g:vimwiki_table_mappings = 0
+au filetype vimwiki silent! iunmap <buffer> <Tab>
 
 au BufNewFile ~/.vim/vimwiki/diary/*.md :silent 0r !~/.vim/vimwiki/templates/diary-template '%'
 
