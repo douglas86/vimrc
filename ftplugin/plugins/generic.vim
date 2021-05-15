@@ -10,10 +10,6 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-" Disable coc.nvim when entering a .md file
-" Silent warning when entering with the silent! command
-autocmd BufWinEnter *.md silent! :CocDisable
-
 " vim-auto-save
 let g:auto_save = 1 " enable AutoSave on Vim startup
 
@@ -62,6 +58,7 @@ autocmd VimEnter * colorscheme codedark
 " refer to the md plugins file for these settings
 let g:vimwiki_list = [{'path':'~/.vim/vimwiki', 'syntax':'default', 'ext':'.md'}]
 let g:vimwiki_hl_headers = 1
+let g:vimwiki_table_mappings = 0
 
 au BufNewFile ~/.vim/vimwiki/diary/*.md :silent 0r !~/.vim/vimwiki/templates/diary-template '%'
 
@@ -79,3 +76,5 @@ augroup end
 
 " vim-package-info
 
+" ycm settings
+let g:ycm_filetype_blacklist = {}

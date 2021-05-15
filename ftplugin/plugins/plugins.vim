@@ -11,7 +11,7 @@ Plug 'thaerkh/vim-workspace'
 Plug 'mhinz/vim-signify' "this help with gitgutter to update the github signs in the gutter on the left
 Plug 'asheq/close-buffers.vim' "Handles buffers
 Plug 'tomasiser/vim-code-dark'
-Plug 'vimwiki/vimwiki', "vimwiki is used for taking notes and a personal diary
+Plug 'vimwiki/vimwiki', {'branch': 'dev'} "vimwiki is used for taking notes and a personal diary
 Plug 'mattn/calendar-vim' "this calender is used in vimwiki for displaying calendar dates
 Plug 'anyakichi/vim-surround'
 Plug 'tpope/vim-fugitive' "Used for github
