@@ -10,6 +10,10 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+" Disable coc.nvim when entering a .md file
+" Silent warning when entering with the silent! command
+autocmd BufWinEnter *.md silent! :CocDisable
+
 " vim-auto-save
 let g:auto_save = 1 " enable AutoSave on Vim startup
 
