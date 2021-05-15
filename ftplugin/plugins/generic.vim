@@ -76,5 +76,10 @@ augroup end
 
 " vim-package-info
 
-" ycm settings
-let g:ycm_filetype_blacklist = {}
+" goyo
+au BufWinEnter *.md :Goyo 120
+
+" limelight
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+au BufWinEnter *.md :Limelight

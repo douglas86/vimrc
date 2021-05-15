@@ -29,7 +29,6 @@ Plug 'sidorares/node-vim-debugger', {'for': ['javascript', 'javascriptreact', 'e
 "html and javascript
 Plug 'mattn/emmet-vim'
 Plug 'valloric/matchtagalways', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']} "show matches html tags
-" Plug 'prettier/vim-prettier', {'do': 'yarn install', 'for': ['css', 'html', 'htmldjango', 'javascript', 'javascript/react', 'embedded/javascript']}
 
 "ejs plugin settings
 Plug 'nikvdp/ejs-syntax', {'for':['embedded/javascript']} "syntax highlighting
@@ -43,6 +42,8 @@ Plug 'jmcantrell/vim-virtualenv', {'for':'python'}
 Plug 'psf/black', {'for':['python','html']}
 
 "markdown plugin settings
+Plug 'junegunn/goyo.vim', {'for':'markdown'}
+Plug 'junegunn/limelight.vim', {'for':'markdown'}
 
 "csv plugin settings
 Plug 'mechatroner/rainbow_csv'

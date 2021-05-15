@@ -18,6 +18,7 @@ nnoremap * /\<<C-R>=expand('<cword>')<CR>\><CR>
 nnoremap # ?\<<C-R>=expand('<cword>')<CR>\><CR>
 
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endi
+autocmd FileType markdown setlocal spell
 
 " color codes for popup menu
 hi Pmenu ctermbg=darkgrey
